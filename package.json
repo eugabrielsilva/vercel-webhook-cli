@@ -1,0 +1,23 @@
+{
+  "name": "@eugabrielsilva/vercel-webhook-cli",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugabrielsilva/vercel-webhook-cli.git"
+  },
+  "description": "Command line tool to trigger Vercel deploy hooks",
+  "bin": {
+    "vercel": "./src/index.js"
+  },
+  "keywords": [
+    "vercel",
+    "deployment",
+    "webhooks"
+  ],
+  "author": "Gabriel Silva",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}
